@@ -6,6 +6,7 @@
 // a number of minutes as an argument and returns
 // the number of seconds
 
+// made changes and finished the exercise. 
 function convertToSeconds() {}
 
 console.log(`convertToSeconds(10) === 600 : ${convertToSeconds(10) === 600}`);
