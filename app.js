@@ -5,7 +5,9 @@
 // Write a function called convertToSeconds that takes
 // a number of minutes as an argument and returns
 // the number of seconds
+// another comment to trigger a change
 
+// made changes and finished the exercise. 
 function convertToSeconds() {}
 
 console.log(`convertToSeconds(10) === 600 : ${convertToSeconds(10) === 600}`);
@@ -19,7 +21,14 @@ console.log(`areaOfTriangle(5, 10) === 25 : ${areaOfTriangle(5, 10) === 25}`);
 // 3. lessThan100
 // Given 2 numbers, return true if their sum is less than 100
 // return false if it is greater than 100
-function lessThan100() {}
+function lessThan100(num1, num2) {
+    if (num1 + num2 < 100) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 console.log(`lessThan100(5, 10) === true : ${lessThan100(5, 10) === true}`);
 console.log(`lessThan100(100, 10) === false : ${lessThan100(100, 10) === false}`);
 
