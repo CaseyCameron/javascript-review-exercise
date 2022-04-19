@@ -5,6 +5,7 @@
 // Write a function called convertToSeconds that takes
 // a number of minutes as an argument and returns
 // the number of seconds
+// another comment to trigger a change
 
 // made changes and finished the exercise. 
 function convertToSeconds() {}
